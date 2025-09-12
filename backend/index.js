@@ -1,7 +1,10 @@
-const express = require('express');
-const dotenv = require('dotenv');
+import express from 'express'
+import dotenv from 'dotenv';
 const app = express();
+import client from './database/dbconnection.js';
 dotenv.config();
+
+
 
 const port = process.env.PORT;
 
