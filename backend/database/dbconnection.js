@@ -13,7 +13,7 @@ const config = {
     
 }
 
-console.log(config);
+// console.log(config);
 const client = new Client(config);
 client.connect(function (err) {
     if (err)
