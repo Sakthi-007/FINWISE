@@ -18,6 +18,7 @@ function App() {
     <>   
     <BankStatementUpload />  
     <RouterProvider router={router}/> 
-    <>);
+    </>);
+
 }
 export default App
