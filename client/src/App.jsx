@@ -4,7 +4,7 @@ import Signup from './pages/Signup'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import { Home } from './pages/home';
-
+import BankStatementUpload from './upload.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -16,9 +16,8 @@ function App() {
 
   return (
     <>   
-      <RouterProvider router={router}/>
-    </>
-  )
+    <BankStatementUpload />  
+    <RouterProvider router={router}/> 
+    <>);
 }
-
 export default App
