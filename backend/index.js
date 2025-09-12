@@ -3,9 +3,9 @@ import dotenv from 'dotenv';
 const app = express();
 import client from './database/dbconnection.js';
 dotenv.config();
+import main from './gemini/ai.mjs';
 
-
-
+main();
 const port = process.env.PORT;
 
 app.get('/',(req,res)=>{
