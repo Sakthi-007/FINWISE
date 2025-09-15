@@ -2,6 +2,7 @@ import {GoogleGenAI,Type} from '@google/genai';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import { type } from 'os';
+import { insertTransactions } from '../database/transactions.js';
 // import pdfParse from '../utils/pdfParser';
 dotenv.config();
 const key = process.env.GEMINI_API_KEY
@@ -71,7 +72,7 @@ export async function processStatement(pdfBuffer) {
             type:Type.OBJECT,
             properties:{
               date:{type:Type.STRING,description:"Transaction date in YYYY-MM-DD format"},
-              description:{type:Type.STRING,description:"Transaction description"},
+              description:{type:Type.STRING,description:"Transaction description give the entire description"},
               amount:{type:Type.NUMBER,description:"Transaction amount"},
               category:{type:Type.STRING,description:"Transaction category"},
               type:{type:Type.STRING,description:"income or expense"}
@@ -86,11 +87,20 @@ export async function processStatement(pdfBuffer) {
       }
   });
 
-  
+
+// const a = fs.readFileSync('res.txt','utf-8');
+// const transactions = JSON.parse(a);
+// console.log(transactions);
+const transaction = JSON.parse(response.text);
+console.log(transaction);
+insertTransactions(transaction);
+// console.log(response.text);
+// insertTransactions(transactions);
 fs.writeFileSync('res.txt',response.text)
-console.log("Wait is over");
-console.log("Response Text:",response);
-  return response.text;
+
+// console.log("Wait is over");
+// console.log("Response Text:",response);
+//   return response.text;
 
   }
   // console.log(response.text);

@@ -24,3 +24,9 @@ CREATE TABLE IF NOT EXISTS transactions (
     type transaction_type NOT NULL,
     description TEXT
 );`;
+
+
+export const insert_transaction = `
+    INSERT INTO transactions (user_id,amount, category, description, type)
+    VALUES ($1, $2, $3, $4, $5);
+`;
