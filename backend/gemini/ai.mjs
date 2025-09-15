@@ -1,6 +1,7 @@
 import {GoogleGenAI,Type} from '@google/genai';
 import dotenv from 'dotenv';
 import fs from 'fs';
+import { type } from 'os';
 // import pdfParse from '../utils/pdfParser';
 dotenv.config();
 const key = process.env.GEMINI_API_KEY
@@ -72,7 +73,8 @@ export async function processStatement(pdfBuffer) {
               date:{type:Type.STRING,description:"Transaction date in YYYY-MM-DD format"},
               description:{type:Type.STRING,description:"Transaction description"},
               amount:{type:Type.NUMBER,description:"Transaction amount"},
-              category:{type:Type.STRING,description:"Transaction category"}
+              category:{type:Type.STRING,description:"Transaction category"},
+              type:{type:Type.STRING,description:"income or expense"}
             }
           }
           }

@@ -35,7 +35,7 @@ const BankStatementUpload = () => {
           'Content-Type': 'multipart/form-data',
         },
       });
-      setResult(response.data);
+      setResult(response);
       setLoading(false);
     } catch (err) {
       setError(err.response?.data?.message || 'Error processing the PDF');
@@ -79,12 +79,13 @@ const BankStatementUpload = () => {
               </tr>
             </thead>
             <tbody>
-              {result.transactions.map((transaction, index) => (
+              {result.map((transaction, index) => (
                 <tr key={index}>
                   <td>{transaction.date}</td>
                   <td>{transaction.description}</td>
                   <td>{transaction.amount}</td>
                   <td>{transaction.category}</td>
+                  <td>{transaction.type}</td>
                 </tr>
               ))}
             </tbody>

@@ -1,1142 +1,681 @@
 [
   {
-    "amount": -299.00,
+    "amount": 500.00,
     "category": "Miscellaneous",
-    "date": "2023-09-13",
-    "description": "Chrg: Debit Card Annual Fee 7154 For 2023"
+    "date": "2025-06-13",
+    "description": "UPI/V SIVAKUMAR/553055993152/grocery",
+    "type": "income"
   },
   {
-    "amount": -24.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-15",
-    "description": "UPI/sakthisiva2004@/362417696842/ UPI"
-  },
-  {
-    "amount": -500.00,
+    "amount": -165.00,
     "category": "Personal Spending",
-    "date": "2023-09-17",
-    "description": "UPI/PCWORLD/362694363905/UPI"
-  },
-  {
-    "amount": -210.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-17",
-    "description": "UPI/Laya Ventures/326063759640/UPI"
-  },
-  {
-    "amount": -45.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-17",
-    "description": "UPI/Laya Ventures/362664167969/UPI"
-  },
-  {
-    "amount": -3150.00,
-    "category": "Personal Spending",
-    "date": "2023-09-17",
-    "description": "UPI/PCWORLD/362631271130/UPI"
-  },
-  {
-    "amount": -700.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-17",
-    "description": "UPI/Emperor Systems/326067373327/UPI"
-  },
-  {
-    "amount": -30.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-18",
-    "description": "UPI/V Dhandapani/326119309713/UPI"
-  },
-  {
-    "amount": -80.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-18",
-    "description": "UPI/Mr R GUNA SEKA/326139617774/Pay to BharatPe"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-18",
-    "description": "UPI/anandarajme-1@0/362754729991/Sakthi Vignesh"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-18",
-    "description": "UPI/anandarajme-1@o/362727819554/Rajesh Kumar II"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-18",
-    "description": "UPI/anandarajme-1@0/326197823217/Rohit KS II CCE"
-  },
-  {
-    "amount": -1.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-21",
-    "description": "UPI/sivarri-1@okici/363060753803/UPI"
-  },
-  {
-    "amount": -700.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-21",
-    "description": "UPI/S MUTHU RAJA/363014049625/UPI"
-  },
-  {
-    "amount": -400.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-27",
-    "description": "UPI/S MUTHU RAJA/363680865957/UPI"
-  },
-  {
-    "amount": -380.00,
-    "category": "Food",
-    "date": "2023-09-27",
-    "description": "UPI/CHOLA HOTEL/363692989087/UPI"
+    "date": "2025-06-13",
+    "description": "UPI/Alvin Store/553035997685/UPI",
+    "type": "expense"
   },
   {
     "amount": -100.00,
-    "category": "Transportation",
-    "date": "2023-09-29",
-    "description": "UPI/harunmotors2011/363867648604/ UPI"
+    "category": "Personal Spending",
+    "date": "2025-06-13",
+    "description": "UPI/Alvin Store/516466604029/UPI",
+    "type": "expense"
   },
   {
-    "amount": -120.00,
-    "category": "Miscellaneous",
-    "date": "2023-09-30",
-    "description": "UPI/JINNY PAULSON A/363918293550/UPI"
-  },
-  {
-    "amount": -78.00,
-    "category": "Miscellaneous",
-    "date": "2023-10-05",
-    "description": "UPI/MOHANASUNDARAM/327899498634/UPI"
-  },
-  {
-    "amount": -1.00,
-    "category": "Miscellaneous",
-    "date": "2023-10-06",
-    "description": "UPI/sivarri-1@okici/327944368411/UPI"
-  },
-  {
-    "amount": -208.61,
+    "amount": -230.00,
     "category": "Entertainment",
-    "date": "2023-10-08",
-    "description": "UPI/Hotstar/364734125310/PayviaRaz orpay"
+    "date": "2025-06-14",
+    "description": "UPI/shanealvin.19@0/516562176852/ticket",
+    "type": "expense"
   },
   {
-    "amount": -400.00,
+    "amount": -100.00,
     "category": "Miscellaneous",
-    "date": "2023-10-12",
-    "description": "UPI/S MUTHU RAJA/365148717549/UPI"
+    "date": "2025-06-18",
+    "description": "UPI/RAJESH KUMAR MY/553599531905/UPI",
+    "type": "expense"
   },
   {
-    "amount": -210.00,
+    "amount": 100.00,
     "category": "Miscellaneous",
-    "date": "2023-10-12",
-    "description": "UPI/A Anto Jackson/328520651702/UPI"
-  },
-  {
-    "amount": -240.00,
-    "category": "Miscellaneous",
-    "date": "2023-10-14",
-    "description": "UPI/SUJITHRA N/328718867321/UPI"
+    "date": "2025-06-18",
+    "description": "UPI/RAJESH KUMAR MY/553599644610/UPI",
+    "type": "income"
   },
   {
     "amount": -100.00,
     "category": "Entertainment",
-    "date": "2023-10-14",
-    "description": "UPI/SUN DIRECT TV P/328734479193/Upi Transaction"
+    "date": "2025-06-18",
+    "description": "UPI/shanealvin.19@o/553524735778/netflix",
+    "type": "expense"
   },
   {
-    "amount": -228.00,
-    "category": "Food",
-    "date": "2023-10-19",
-    "description": "UPI/SREE SUBBU MESS/365818835919/UPI"
-  },
-  {
-    "amount": -90.00,
+    "amount": -1.00,
     "category": "Miscellaneous",
-    "date": "2023-10-20",
-    "description": "UPI/THIRAVIYARAJ/329316666130/Pay to BharatPe"
-  },
-  {
-    "amount": -3400.00,
-    "category": "Miscellaneous",
-    "date": "2023-10-26",
-    "description": "UPI/imrajeshkumar03/366596154842/ UPI"
-  },
-  {
-    "amount": -100.00,
-    "category": "Miscellaneous",
-    "date": "2023-10-26",
-    "description": "UPI/imrajeshkumar03/366586447482/ UPI"
-  },
-  {
-    "amount": -315.00,
-    "category": "Food",
-    "date": "2023-11-03",
-    "description": "UPI/TATA STARBUCKS /367319020849/UPI"
-  },
-  {
-    "amount": -583.00,
-    "category": "Transportation",
-    "date": "2023-11-06",
-    "description": "UPI/SUGUNA AUTOMOBI/367642130955/UPI"
+    "date": "2025-06-25",
+    "description": "UPI/K S ROHIT/100831220305/NA",
+    "type": "expense"
   },
   {
     "amount": -40.00,
+    "category": "Food",
+    "date": "2025-06-27",
+    "description": "UPI/B Karishma/554416753526/chappathi",
+    "type": "expense"
+  },
+  {
+    "amount": 200.00,
+    "category": "Savings/Investment",
+    "date": "2025-06-28",
+    "description": "UPI/SAKTHI VIGNESH /517932210268/UPI",
+    "type": "income"
+  },
+  {
+    "amount": 100.00,
     "category": "Miscellaneous",
-    "date": "2023-11-06",
-    "description": "UPI/Cockraco Gounda/331072359283/UPI"
+    "date": "2025-06-28",
+    "description": "UPI/K S ROHIT/517932332960/lulu",
+    "type": "income"
   },
   {
-    "amount": -72.00,
+    "amount": -175.00,
+    "category": "Personal Spending",
+    "date": "2025-06-28",
+    "description": "UPI/LULU INTERNATIO/517946305970/Payment for 501",
+    "type": "expense"
+  },
+  {
+    "amount": -38.00,
+    "category": "Personal Spending",
+    "date": "2025-06-28",
+    "description": "UPI/Lulu Coimbatore/517952014624/Payment for PIN",
+    "type": "expense"
+  },
+  {
+    "amount": -109.00,
+    "category": "Food",
+    "date": "2025-06-28",
+    "description": "UPI/muthuraja166200/517915518413/food",
+    "type": "expense"
+  },
+  {
+    "amount": 40.00,
     "category": "Miscellaneous",
-    "date": "2023-11-07",
-    "description": "UPI/Mr R GUNA SEKA/367754491177/UPI"
+    "date": "2025-06-28",
+    "description": "UPI/S MUTHU RAJA/554559713010/UPI",
+    "type": "income"
   },
   {
-    "amount": -200.00,
+    "amount": 2000.00,
+    "category": "Savings/Investment",
+    "date": "2025-06-29",
+    "description": "UPI/SAKTHI VIGNESH /518062865877/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -1790.00,
+    "category": "Food",
+    "date": "2025-06-29",
+    "description": "UPI/AL REEM MANDI R/518094054436/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": 45.00,
     "category": "Miscellaneous",
-    "date": "2023-11-09",
-    "description": "UPI/PRAVEENA A/367942886640/UPI"
-  },
-  {
-    "amount": -30.00,
-    "category": "Miscellaneous",
-    "date": "2023-11-22",
-    "description": "UPI/Mr Malaisamy R/332612734369/UPI"
-  },
-  {
-    "amount": -65.00,
-    "category": "Utilities",
-    "date": "2023-11-23",
-    "description": "UPI/Bharti Airtel L/369323565498/UPITransactionf"
-  },
-  {
-    "amount": -21.00,
-    "category": "Miscellaneous",
-    "date": "2023-11-24",
-    "description": "UPI/MOHANASUNDARAM/332876525130/UPI"
-  },
-  {
-    "amount": -900.00,
-    "category": "Miscellaneous",
-    "date": "2023-11-26",
-    "description": "UPI/PRANAVKUMAR SUB/333052595884/UPI"
-  },
-  {
-    "amount": -189.00,
-    "category": "Entertainment",
-    "date": "2023-11-29",
-    "description": "UPI/SUN DIRECT TV P/333379502207/Upi Transaction"
+    "date": "2025-06-29",
+    "description": "UPI/S MUTHU RAJA/554652343493/UPI",
+    "type": "income"
   },
   {
     "amount": -50.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/NATARAJAN T/333613338200/UPI"
-  },
-  {
-    "amount": -85.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/SRIDHARAN G/333651647628/UPI"
-  },
-  {
-    "amount": -30.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/PRANAVKUMAR SUB/370276639198/UPI"
-  },
-  {
-    "amount": -35.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/Mr Haresh A V/370212853368/UPI"
-  },
-  {
-    "amount": -12.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/tnaveenvenkat-2/333633354890/UPI"
-  },
-  {
-    "amount": -85.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/Srinivasan S/333612854736/UPI"
-  },
-  {
-    "amount": -85.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-02",
-    "description": "UPI/PARAMASIVAM P/333600764268/UPI"
-  },
-  {
-    "amount": -223.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/SRIDHARAN G/370310880336/UPI"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/N ZAHEER UDDIN/370302988624/Pay to BharatPe"
-  },
-  {
-    "amount": -40.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/Mr Haresh A V/333766385123/UPI"
-  },
-  {
-    "amount": -153.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/SETTU/333717589310/UPI"
-  },
-  {
-    "amount": -20.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/9344790076@payt/370302095183/UPI"
-  },
-  {
-    "amount": -40.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/NATARAJAMMORTHY/333709507617/UPI"
-  },
-  {
-    "amount": -60.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-03",
-    "description": "UPI/9344790076@payt/370390910511/UPI"
-  },
-  {
-    "amount": -100.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-04",
-    "description": "UPI/THIRUMANGALAM/333841426259/UPI"
-  },
-  {
-    "amount": -20.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-04",
-    "description": "UPI/9344790076@payt/333890917798/UPI"
-  },
-  {
-    "amount": -54.00,
     "category": "Food",
-    "date": "2023-12-04",
-    "description": "UPI/Mr Haresh A V/333814520468/food and water"
+    "date": "2025-06-29",
+    "description": "UPI/B Karishma/518089175562/chappathi",
+    "type": "expense"
   },
   {
-    "amount": -500.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-04",
-    "description": "UPI/KAMALA V/333870443018/UPI"
-  },
-  {
-    "amount": -580.00,
-    "category": "Food",
-    "date": "2023-12-04",
-    "description": "UPI/SELVI MESS/370487752976/UPI"
-  },
-  {
-    "amount": -45.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-04",
-    "description": "UPI/KAMALA V/370487364644/UPI"
-  },
-  {
-    "amount": -180.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-09",
-    "description": "UPI/Mr I AROKIADOSS/334388902849/UPI"
-  },
-  {
-    "amount": -80.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-13",
-    "description": "UPI/Mr Malaisamy R/334703479962/kalan"
-  },
-  {
-    "amount": -600.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-15",
-    "description": "UPI/imrajeshkumar03/334929280208/ UPI"
-  },
-  {
-    "amount": -4700.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-17",
-    "description": "UPI/seceacin/335144061787/UPI Transaction"
-  },
-  {
-    "amount": -1770.00,
-    "category": "Personal Spending",
-    "date": "2023-12-19",
-    "description": "UPI/PALIES IT SERVI/335359372487/pc repair"
-  },
-  {
-    "amount": -300.00,
-    "category": "Food",
-    "date": "2023-12-19",
-    "description": "UPI/Mr I AROKIADOSS/335381475839/chicken"
-  },
-  {
-    "amount": -500.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-21",
-    "description": "UPI/Mr Harish Jaimo/372105061563/UPI"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-23",
-    "description": "UPI/vardhukrishnan2/372319321108/balance"
-  },
-  {
-    "amount": -59.00,
-    "category": "Miscellaneous",
-    "date": "2023-12-26",
-    "description": "UPI/OCTANET/336030558480/Interns hip"
-  },
-  {
-    "amount": -1599.00,
-    "category": "Personal Spending",
-    "date": "2024-01-07",
-    "description": "UPI/Amazon India/400797973129/You are paying"
-  },
-  {
-    "amount": -275.00,
-    "category": "Miscellaneous",
-    "date": "2024-01-08",
-    "description": "UPI/RAJESH KUMAR MY/437482730513/Binding"
-  },
-  {
-    "amount": -76.00,
-    "category": "Food",
-    "date": "2024-01-14",
-    "description": "UPI/Annalakshmi Hot/401406898685/lunch"
-  },
-  {
-    "amount": -220.00,
-    "category": "Food",
-    "date": "2024-01-14",
-    "description": "UPI/Durgadevi Rames/438015792698/lunch"
-  },
-  {
-    "amount": -99.00,
-    "category": "Healthcare",
-    "date": "2024-01-15",
-    "description": "UPI/NAVANEETHAN V/401551347977/Adult diapers"
-  },
-  {
-    "amount": -1649.00,
-    "category": "Miscellaneous",
-    "date": "2024-01-15",
-    "description": "UPI/YesBank/438185215883/Request from Am"
-  },
-  {
-    "amount": -678.54,
-    "category": "Entertainment",
-    "date": "2024-01-17",
-    "description": "UPI/BIGTREE ENTERTA/438386294011/BIGTREE ENTERTA"
-  },
-  {
-    "amount": -270.00,
-    "category": "Entertainment",
-    "date": "2024-01-17",
-    "description": "UPI/KG CINEMAS 7/401794519576/Popcorn"
-  },
-  {
-    "amount": -360.00,
-    "category": "Food",
-    "date": "2024-01-18",
-    "description": "UPI/Ponni restauran/438495757901/biriyani"
-  },
-  {
-    "amount": -117.00,
-    "category": "Food",
-    "date": "2024-01-19",
-    "description": "UPI/MURUGA SUNDARI /401954821001/Maavu and milk"
-  },
-  {
-    "amount": -300.00,
-    "category": "Miscellaneous",
-    "date": "2024-01-20",
-    "description": "UPI/RAJESH KUMAR MY/402055170263/java"
-  },
-  {
-    "amount": -486.00,
-    "category": "Food",
-    "date": "2024-01-21",
-    "description": "UPI/RAJESH KUMAR MY/438749201167/Lunch"
-  },
-  {
-    "amount": -330.00,
-    "category": "Food",
-    "date": "2024-01-24",
-    "description": "UPI/Cockraco Gounda/402496609490/lunch"
-  },
-  {
-    "amount": -235.00,
-    "category": "Personal Spending",
-    "date": "2024-01-25",
-    "description": "UPI/Amazon Pay/402593470740/Request from Am"
-  },
-  {
-    "amount": -200.00,
-    "category": "Miscellaneous",
-    "date": "2024-01-27",
-    "description": "UPI/9442012659@payt/402726751803/Record"
-  },
-  {
-    "amount": -455.00,
-    "category": "Utilities",
-    "date": "2024-01-28",
-    "description": "UPI/Airtel Payments/439423067383/UPITransactionf"
+    "amount": 3.00,
+    "category": "Savings/Investment",
+    "date": "2025-07-01",
+    "description": "Int.Pd:3747149377:01-04-2025 to 30-06-2025",
+    "type": "income"
   },
   {
     "amount": -2.00,
+    "category": "Personal Spending",
+    "date": "2025-07-02",
+    "description": "UPI/Google Play/684513861835/MandateExecute",
+    "type": "expense"
+  },
+  {
+    "amount": 2.00,
     "category": "Miscellaneous",
-    "date": "2024-01-28",
-    "description": "UPI/Google Play/402841528166/MandateExecute"
+    "date": "2025-07-02",
+    "description": "UPI/Google Pay/684534491835/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -8.00,
+    "category": "Transportation",
+    "date": "2025-07-03",
+    "description": "UPI/sbipmopad.02ple/555092627187/bus",
+    "type": "expense"
+  },
+  {
+    "amount": -110.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-04",
+    "description": "UPI/MUHAMMAD AJMAL /555141584806/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": 10.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-04",
+    "description": "UPI/R DINESH/518535083455/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -94.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-05",
+    "description": "UPI/Mr GUGHAN D/518661067554/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": 50.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-07",
+    "description": "UPI/RAJESH KUMAR MY/518859316051/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -70.00,
+    "category": "Food",
+    "date": "2025-07-07",
+    "description": "UPI/paytm.s1hzqqz@p/518812860573/Meals",
+    "type": "expense"
+  },
+  {
+    "amount": -30.00,
+    "category": "Food",
+    "date": "2025-07-07",
+    "description": "UPI/paytm.s18wn1z@p/518815259117/Sandwich toast",
+    "type": "expense"
+  },
+  {
+    "amount": 200.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-08",
+    "description": "UPI/S MUTHU RAJA/518986592577/UPI",
+    "type": "income"
   },
   {
     "amount": -1.00,
     "category": "Miscellaneous",
-    "date": "2024-01-28",
-    "description": "UPI/HEMALATHA D/402897098824/Payment from Ph"
-  },
-  {
-    "amount": -75.00,
-    "category": "Food",
-    "date": "2024-02-04",
-    "description": "UPI/Laya Ventures/403595991073/ice cream"
-  },
-  {
-    "amount": -330.00,
-    "category": "Food",
-    "date": "2024-02-11",
-    "description": "UPI/Cockraco Gounda/440823153893/lunch"
-  },
-  {
-    "amount": -90.00,
-    "category": "Miscellaneous",
-    "date": "2024-02-15",
-    "description": "UPI/RAJESH KUMAR MY/404699065343/bs value"
-  },
-  {
-    "amount": -465.00,
-    "category": "Food",
-    "date": "2024-02-19",
-    "description": "UPI/HOTEL MUTHU ROW/405053560518/lunch"
-  },
-  {
-    "amount": -1049.00,
-    "category": "Personal Spending",
-    "date": "2024-02-23",
-    "description": "UPI/AMAZON SELLER S/442016927363/UPI"
-  },
-  {
-    "amount": -265.00,
-    "category": "Personal Spending",
-    "date": "2024-02-24",
-    "description": "UPI/Amazon Pay/442125531259/Request from Am"
+    "date": "2025-07-13",
+    "description": "UPI/hemasiva7903-1@/519421818906/UPI",
+    "type": "expense"
   },
   {
     "amount": -20.00,
-    "category": "Food",
-    "date": "2024-02-25",
-    "description": "UPI/Krishna bakes a/405691861795/UPI"
-  },
-  {
-    "amount": -297.00,
-    "category": "Healthcare",
-    "date": "2024-02-27",
-    "description": "UPI/Pasumai Pharmac/405848351862/medicines"
-  },
-  {
-    "amount": -65.00,
-    "category": "Food",
-    "date": "2024-03-01",
-    "description": "UPI/Selva Juice Sho/442777103625/snacks"
-  },
-  {
-    "amount": -1650.82,
-    "category": "Miscellaneous",
-    "date": "2024-03-02",
-    "description": "UPI/GODADDY INDIA D/406246454280/COLLECT"
-  },
-  {
-    "amount": -1.00,
     "category": "Utilities",
-    "date": "2024-03-16",
-    "description": "UPI/AIRTEL DIGITAL /407691728897/Xstream Premium"
+    "date": "2025-07-17",
+    "description": "UPI/SASIKALA S/519854595551/water",
+    "type": "expense"
   },
   {
-    "amount": -152.00,
-    "category": "Food",
-    "date": "2024-03-16",
-    "description": "UPI/Annalakshmi Hot/407651006740/Parota"
-  },
-  {
-    "amount": -80.00,
+    "amount": -2.00,
     "category": "Personal Spending",
-    "date": "2024-03-18",
-    "description": "UPI/SUDHA STORES/444437018691/books"
+    "date": "2025-07-18",
+    "description": "UPI/Google Play/715214471995/MandateExecute",
+    "type": "expense"
   },
   {
-    "amount": -440.00,
-    "category": "Entertainment",
-    "date": "2024-03-19",
-    "description": "UPI/K P ABHINDHIRA/407923956410/Movie"
+    "amount": 2.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-18",
+    "description": "UPI/Google Pay/715255991995/UPI",
+    "type": "income"
   },
   {
-    "amount": -572.34,
-    "category": "Entertainment",
-    "date": "2024-03-22",
-    "description": "UPI/BROADWAY CINEMA/408244880963/Generating DYNA"
+    "amount": -50.00,
+    "category": "Food",
+    "date": "2025-07-19",
+    "description": "UPI/T Elango/520054064531/food",
+    "type": "expense"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-07-19",
+    "description": "UPI/V SIVAKUMAR/520011779679/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -60.00,
+    "category": "Food",
+    "date": "2025-07-19",
+    "description": "UPI/B Karishma/520016881917/chaphathi",
+    "type": "expense"
   },
   {
     "amount": -200.00,
     "category": "Food",
-    "date": "2024-03-22",
-    "description": "UPI/RAJESH KUMAR MY/444820793995/RR lunch"
+    "date": "2025-07-19",
+    "description": "UPI/Quality Chicken/520013692241/UPI",
+    "type": "expense"
   },
   {
-    "amount": -455.00,
+    "amount": -199.00,
+    "category": "Food",
+    "date": "2025-07-20",
+    "description": "UPI/PIONEER AGRO VI/556776937567/chilli",
+    "type": "expense"
+  },
+  {
+    "amount": 2000.00,
+    "category": "Miscellaneous",
+    "date": "2025-07-23",
+    "description": "UPI/RAJESH MYLSAMY/520421526250/Paid via Navi U",
+    "type": "income"
+  },
+  {
+    "amount": -2000.00,
     "category": "Personal Spending",
-    "date": "2024-03-24",
-    "description": "UPI/Amazon Pay/445058902404/Request from Am"
+    "date": "2025-07-23",
+    "description": "UPI/sivarri-1@okici/557051034116/Lenovo service",
+    "type": "expense"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-07-23",
+    "description": "UPI/V SIVAKUMAR/557019775533/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -248.00,
+    "category": "Food",
+    "date": "2025-07-23",
+    "description": "UPI/Annalakshmi Hot/557006067682/parotta",
+    "type": "expense"
+  },
+  {
+    "amount": -50.00,
+    "category": "Food",
+    "date": "2025-07-29",
+    "description": "UPI/MUHAMMAD AJMAL /557602563686/food",
+    "type": "expense"
+  },
+  {
+    "amount": 2000.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-02",
+    "description": "UPI/HEMALATHA D/521407887639/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -2000.00,
+    "category": "Personal Spending",
+    "date": "2025-08-02",
+    "description": "UPI/OPTICAL SERVICE/521427094603/Generating DYNA",
+    "type": "expense"
+  },
+  {
+    "amount": 5.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-02",
+    "description": "UPI/GOOGLE INDIA DI/885051232145/UPI",
+    "type": "income"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-08-02",
+    "description": "UPI/V SIVAKUMAR/558033525453/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -145.00,
+    "category": "Food",
+    "date": "2025-08-02",
+    "description": "UPI/B Karishma/558062237257/chaphathi",
+    "type": "expense"
+  },
+  {
+    "amount": -16.00,
+    "category": "Food",
+    "date": "2025-08-02",
+    "description": "UPI/MS JAYARANI M/558069613473/banana",
+    "type": "expense"
+  },
+  {
+    "amount": -37.34,
+    "category": "Entertainment",
+    "date": "2025-08-08",
+    "description": "UPI/JioHotstar/522056192683/Collect request",
+    "type": "expense"
+  },
+  {
+    "amount": -70.00,
+    "category": "Food",
+    "date": "2025-08-08",
+    "description": "UPI/Fortune Flavour/558632690087/meals",
+    "type": "expense"
+  },
+  {
+    "amount": -150.00,
+    "category": "Food",
+    "date": "2025-08-09",
+    "description": "UPI/Fortune Flavour/522102966449/snack",
+    "type": "expense"
+  },
+  {
+    "amount": -220.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-11",
+    "description": "UPI/THANGAVEL THIR/522336737490/coolie",
+    "type": "expense"
+  },
+  {
+    "amount": -200.00,
+    "category": "Food",
+    "date": "2025-08-13",
+    "description": "UPI/RAJESH KUMAR MY/559181290899/chicken rice",
+    "type": "expense"
+  },
+  {
+    "amount": 100.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-13",
+    "description": "UPI/R DINESH/522501081084/UPI",
+    "type": "income"
+  },
+  {
+    "amount": 100.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-13",
+    "description": "UPI/K S ROHIT/522502118477/UPI",
+    "type": "income"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-08-14",
+    "description": "UPI/V SIVAKUMAR/522680345293/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -70.00,
+    "category": "Food",
+    "date": "2025-08-14",
+    "description": "UPI/Fortune Flavour/522653267615/veg rice",
+    "type": "expense"
+  },
+  {
+    "amount": -72.50,
+    "category": "Miscellaneous",
+    "date": "2025-08-16",
+    "description": "UPI/RAJESH KUMAR MY/559474598207/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": -170.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-16",
+    "description": "UPI/RAJESH KUMAR MY/522820815867/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": -110.00,
+    "category": "Food",
+    "date": "2025-08-21",
+    "description": "UPI/IDEAL SUPER MAR/559995467275/grocery",
+    "type": "expense"
+  },
+  {
+    "amount": -105.00,
+    "category": "Food",
+    "date": "2025-08-21",
+    "description": "UPI/Sri Vaishnavi P/559933984019/food",
+    "type": "expense"
+  },
+  {
+    "amount": 35.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-21",
+    "description": "UPI/RAJESH KUMAR MY/559900247270/choco",
+    "type": "income"
+  },
+  {
+    "amount": -166.00,
+    "category": "Entertainment",
+    "date": "2025-08-25",
+    "description": "UPI/shanealvin.19@o/523706145718/netflix",
+    "type": "expense"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-08-27",
+    "description": "UPI/V SIVAKUMAR/523977930320/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -100.00,
+    "category": "Food",
+    "date": "2025-08-27",
+    "description": "UPI/SRI ARYAA CHAPA/523937250271/chapathi",
+    "type": "expense"
+  },
+  {
+    "amount": -99.00,
+    "category": "Utilities",
+    "date": "2025-08-28",
+    "description": "UPI/AIRTEL PAYMENTS/524054544050/UPI",
+    "type": "expense"
+  },
+  {
+    "amount": -383.33,
+    "category": "Miscellaneous",
+    "date": "2025-08-28",
+    "description": "DEBIT CARD ANNUAL FEE X7154 FOR 2025",
+    "type": "expense"
+  },
+  {
+    "amount": 100.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-30",
+    "description": "UPI/THANGAVEL THIR/524265210526/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -15.67,
+    "category": "Miscellaneous",
+    "date": "2025-08-30",
+    "description": "DEBIT CARD ANNUAL FEE X7154 FOR 2025",
+    "type": "expense"
+  },
+  {
+    "amount": 66.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-30",
+    "description": "UPI/R DINESH/524265234514/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -130.00,
+    "category": "Food",
+    "date": "2025-08-30",
+    "description": "UPI/SRI ARYAA CHAPA/524236540024/chappathi",
+    "type": "expense"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-08-30",
+    "description": "UPI/V SIVAKUMAR/524222837279/pocketMoney",
+    "type": "income"
+  },
+  {
+    "amount": -166.00,
+    "category": "Miscellaneous",
+    "date": "2025-08-30",
+    "description": "UPI/shanealvin.19@o/524216337364/third share for",
+    "type": "expense"
+  },
+  {
+    "amount": -150.00,
+    "category": "Personal Spending",
+    "date": "2025-09-01",
+    "description": "UPI/Mr Suresh A/561028480153/haircut",
+    "type": "expense"
+  },
+  {
+    "amount": -20.00,
+    "category": "Miscellaneous",
+    "date": "2025-09-02",
+    "description": "UPI/dharshinikarthi/524527800360/UPI",
+    "type": "expense"
   },
   {
     "amount": -50.00,
     "category": "Miscellaneous",
-    "date": "2024-03-25",
-    "description": "UPI/THANGAVEL THIR/445174243246/Helpppp"
+    "date": "2025-09-03",
+    "description": "UPI/imrajeshkumar03/524612606391/Summa",
+    "type": "expense"
+  },
+  {
+    "amount": 50.00,
+    "category": "Miscellaneous",
+    "date": "2025-09-03",
+    "description": "UPI/S MUTHU RAJA/561272284485/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -50.00,
+    "category": "Miscellaneous",
+    "date": "2025-09-03",
+    "description": "UPI/imrajeshkumar03/524612608179/Summa",
+    "type": "expense"
+  },
+  {
+    "amount": -30.00,
+    "category": "Food",
+    "date": "2025-09-03",
+    "description": "UPI/Sri Vaishnavi P/561250212213/tea",
+    "type": "expense"
+  },
+  {
+    "amount": 500.00,
+    "category": "Savings/Investment",
+    "date": "2025-09-03",
+    "description": "UPI/V SIVAKUMAR/561270518042/UPI",
+    "type": "income"
+  },
+  {
+    "amount": -1.00,
+    "category": "Miscellaneous",
+    "date": "2025-09-03",
+    "description": "UPI/HEMALATHA D/561249802715/summa",
+    "type": "expense"
+  },
+  {
+    "amount": 100.00,
+    "category": "Savings/Investment",
+    "date": "2025-09-03",
+    "description": "UPI/V SIVAKUMAR/561249813545/Paid via CRED a",
+    "type": "income"
+  },
+  {
+    "amount": -115.00,
+    "category": "Food",
+    "date": "2025-09-04",
+    "description": "UPI/Fortune Flavour/561350593360/puffs",
+    "type": "expense"
+  },
+  {
+    "amount": 20.00,
+    "category": "Miscellaneous",
+    "date": "2025-09-04",
+    "description": "UPI/DARSHAN RAJKUM/561356673133/UPI",
+    "type": "income"
   },
   {
     "amount": -230.00,
     "category": "Food",
-    "date": "2024-03-27",
-    "description": "UPI/Cockraco Gounda/445360244475/dinner"
-  },
-  {
-    "amount": -349.00,
-    "category": "Utilities",
-    "date": "2024-03-29",
-    "description": "UPI/MURUGADASK/408984232770/Water dispenser"
-  },
-  {
-    "amount": -165.00,
-    "category": "Miscellaneous",
-    "date": "2024-03-30",
-    "description": "UPI/Mr CHIPKKULMUTH/445697810861/UPI"
-  },
-  {
-    "amount": -20.00,
-    "category": "Utilities",
-    "date": "2024-04-04",
-    "description": "UPI/N Karthik Naray/409584558812/water"
-  },
-  {
-    "amount": -105.00,
-    "category": "Food",
-    "date": "2024-04-07",
-    "description": "UPI/Laya Ventures/409813916044/ice cream"
-  },
-  {
-    "amount": -72.00,
-    "category": "Food",
-    "date": "2024-04-08",
-    "description": "UPI/MOHANASUNDARAM/446505881224/snacks"
-  },
-  {
-    "amount": -800.00,
-    "category": "Personal Spending",
-    "date": "2024-04-09",
-    "description": "UPI/ANUZ B K/410007444144/shirt and pant"
-  },
-  {
-    "amount": -140.00,
-    "category": "Miscellaneous",
-    "date": "2024-04-09",
-    "description": "UPI/ANUZ B K/446693054647/Burma Bhai"
-  },
-  {
-    "amount": -325.00,
-    "category": "Food",
-    "date": "2024-04-09",
-    "description": "UPI/BURMA BHAI HOTE/446633555328/food"
-  },
-  {
-    "amount": -140.00,
-    "category": "Miscellaneous",
-    "date": "2024-04-19",
-    "description": "UPI/MURUGA SUNDARI /447698492042/UPI"
-  },
-  {
-    "amount": -20.00,
-    "category": "Food",
-    "date": "2024-04-19",
-    "description": "UPI/MURUGA SUNDARI /447668190936/grocery"
-  },
-  {
-    "amount": -225.00,
-    "category": "Food",
-    "date": "2024-04-21",
-    "description": "UPI/Laya Ventures/411247096819/ice cream"
-  },
-  {
-    "amount": -2.00,
-    "category": "Miscellaneous",
-    "date": "2024-04-25",
-    "description": "PCD/7154/MICROSOFT INDIA/0224092000250424/10:36"
-  },
-  {
-    "amount": -900.00,
-    "category": "Personal Spending",
-    "date": "2024-04-25",
-    "description": "UPI/CLASSIC MOBILE/448289452784/Power Bank"
+    "date": "2025-09-04",
+    "description": "UPI/Cockraco Gounda/561350808132/food",
+    "type": "expense"
   },
   {
     "amount": -75.00,
     "category": "Food",
-    "date": "2024-04-30",
-    "description": "UPI/VIJAYAKUMAR M/412153952482/Sugarcane juice"
+    "date": "2025-09-04",
+    "description": "UPI/Arya Chappati S/561351392554/Paid via CRED",
+    "type": "expense"
   },
   {
-    "amount": -60.00,
-    "category": "Miscellaneous",
-    "date": "2024-04-30",
-    "description": "UPI/R NANTHAKUMAR/412172474590/Pay to BharatPe"
-  },
-  {
-    "amount": -273.00,
-    "category": "Personal Spending",
-    "date": "2024-05-02",
-    "description": "UPI/AMAZON SELLER S/448983548237/Notes"
-  },
-  {
-    "amount": -103.00,
+    "amount": -130.00,
     "category": "Food",
-    "date": "2024-05-03",
-    "description": "UPI/SWIGGY/449039626948/Pay for merchan"
+    "date": "2025-09-05",
+    "description": "UPI/Arya Chappati S/561403511958/chapathi",
+    "type": "expense"
   },
   {
-    "amount": -180.00,
+    "amount": -145.00,
     "category": "Food",
-    "date": "2024-05-04",
-    "description": "UPI/Mr I AROKIADOSS/449197995862/chilly"
+    "date": "2025-09-06",
+    "description": "UPI/THE KALAAKAAR S/561546906329/ice cream",
+    "type": "expense"
   },
   {
-    "amount": -42.00,
-    "category": "Food",
-    "date": "2024-05-06",
-    "description": "UPI/MOHANASUNDARAM/412770584820/kalaan"
-  },
-  {
-    "amount": -455.00,
-    "category": "Utilities",
-    "date": "2024-05-10",
-    "description": "UPI/Airtel Prepaid /413130856454/UPIIntent"
-  },
-  {
-    "amount": -240.00,
-    "category": "Food",
-    "date": "2024-05-16",
-    "description": "UPI/MOHAMMED RAFIQU/450343083956/food"
-  },
-  {
-    "amount": -1500.00,
+    "amount": 72.50,
     "category": "Miscellaneous",
-    "date": "2024-05-17",
-    "description": "UPI/P LAVANYA/450436944517/UPI"
-  },
-  {
-    "amount": -580.33,
-    "category": "Food",
-    "date": "2024-05-18",
-    "description": "UPI/ZOMATO LIMITED/450500059571/UPI"
-  },
-  {
-    "amount": -105.00,
-    "category": "Food",
-    "date": "2024-05-20",
-    "description": "UPI/MAHENDRA KUSHAW/450708668184/Bhel Kalaan"
-  },
-  {
-    "amount": -1.00,
-    "category": "Utilities",
-    "date": "2024-05-20",
-    "description": "UPI/AIRTEL DIGITAL /414194342484/Xstream Premium"
-  },
-  {
-    "amount": -19.00,
-    "category": "Utilities",
-    "date": "2024-05-20",
-    "description": "UPI/Airtel Prepaid /450717774395/UPIIntent"
-  },
-  {
-    "amount": -179.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-25",
-    "description": "UPI/YesBank/451224479777/Request from Am"
-  },
-  {
-    "amount": -12000.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-25",
-    "description": "UPI/SREEJA G G/451250214351/Paper publicati"
-  },
-  {
-    "amount": -2.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-26",
-    "description": "UPI/Google Play/414725474336/MandateExecute"
-  },
-  {
-    "amount": -30.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-27",
-    "description": "UPI/RAJESH KUMAR MY/414803524427/xerox"
-  },
-  {
-    "amount": -60.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-27",
-    "description": "UPI/RAJESH KUMAR MY/414859030803/surrya amount"
-  },
-  {
-    "amount": -250.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-27",
-    "description": "UPI/RAJESH KUMAR MY/414846421081/xeroxx"
-  },
-  {
-    "amount": -799.00,
-    "category": "Miscellaneous",
-    "date": "2024-05-30",
-    "description": "UPI/YesBank/451729817021/Request from Am"
-  },
-  {
-    "amount": -19.00,
-    "category": "Utilities",
-    "date": "2024-06-07",
-    "description": "UPI/AIRTEL DIGITAL /415952057416/Hellotune Plan"
-  },
-  {
-    "amount": -120.00,
-    "category": "Entertainment",
-    "date": "2024-06-09",
-    "description": "UPI/S MUTHU RAJA/452732539801/ticket"
-  },
-  {
-    "amount": -80.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-09",
-    "description": "UPI/RAJESH KUMAR MY/416167555526/UPI"
-  },
-  {
-    "amount": -500.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-11",
-    "description": "UPI/RAJESH KUMAR MY/416303840767/UPI"
-  },
-  {
-    "amount": -10.00,
-    "category": "Food",
-    "date": "2024-06-11",
-    "description": "UPI/YAKOOB S/416310242862/tea"
-  },
-  {
-    "amount": -135.00,
-    "category": "Food",
-    "date": "2024-06-15",
-    "description": "UPI/INDRA RAJ/453329462711/food"
-  },
-  {
-    "amount": -120.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-24",
-    "description": "UPI/RAJESH KUMAR MY/417624846886/UPI"
-  },
-  {
-    "amount": -30.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-25",
-    "description": "UPI/RAJESH KUMAR MY/454328288536/UPI"
-  },
-  {
-    "amount": -200.00,
-    "category": "Transportation",
-    "date": "2024-06-25",
-    "description": "UPI/SRI RAMAKRISHNA/454327112034/petrol"
-  },
-  {
-    "amount": -1900.00,
-    "category": "Personal Spending",
-    "date": "2024-06-25",
-    "description": "UPI/Pcworld/454351711938/ram"
-  },
-  {
-    "amount": -800.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-25",
-    "description": "UPI/Emperor Systems/417794623711/labour"
-  },
-  {
-    "amount": -50.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-29",
-    "description": "UPI/RAJESH KUMAR MY/454700596742/UPI"
-  },
-  {
-    "amount": -206.00,
-    "category": "Food",
-    "date": "2024-06-30",
-    "description": "UPI/Swiggy/454814730247/PayviaRaz orpay"
-  },
-  {
-    "amount": -20.00,
-    "category": "Miscellaneous",
-    "date": "2024-06-30",
-    "description": "UPI/safilsafil890@0/418255639263/UPI"
-  },
-  {
-    "amount": -178.00,
-    "category": "Entertainment",
-    "date": "2024-06-30",
-    "description": "UPI/BATTLEGROUNDS/454868846567/UPI"
-  },
-  {
-    "amount": -690.00,
-    "category": "Food",
-    "date": "2024-06-30",
-    "description": "UPI/Cockraco Gounda/418268055586/dinner"
-  },
-  {
-    "amount": -475.60,
-    "category": "Entertainment",
-    "date": "2024-07-16",
-    "description": "UPI/PVR INOX Limite/419832516765/UPI"
-  },
-  {
-    "amount": -240.00,
-    "category": "Entertainment",
-    "date": "2024-07-16",
-    "description": "UPI/PVR INOX Limite/419882929627/UPI"
-  },
-  {
-    "amount": -185.00,
-    "category": "Food",
-    "date": "2024-07-16",
-    "description": "UPI/Laya Ventures/456431956501/ice cream"
-  },
-  {
-    "amount": -300.00,
-    "category": "Food",
-    "date": "2024-07-20",
-    "description": "UPI/gughan4912@okic/456812336608/food"
-  },
-  {
-    "amount": -2.00,
-    "category": "Miscellaneous",
-    "date": "2024-07-24",
-    "description": "UPI/Mebigo Labs Pvt/420611570397/Pay via Razorpa"
-  },
-  {
-    "amount": -100.00,
-    "category": "Miscellaneous",
-    "date": "2024-07-26",
-    "description": "UPI/Milaap/420819734495/UPI"
-  },
-  {
-    "amount": -40.00,
-    "category": "Utilities",
-    "date": "2024-07-27",
-    "description": "UPI/BALASUBRAMANIAN/420919866426/water"
-  },
-  {
-    "amount": -450.00,
-    "category": "Transportation",
-    "date": "2024-07-27",
-    "description": "UPI/RAJESH KUMAR MY/420967663410/train ticket"
-  },
-  {
-    "amount": -69.00,
-    "category": "Personal Spending",
-    "date": "2024-07-27",
-    "description": "UPI/THREE MOBILES/457585288469/back skin"
-  },
-  {
-    "amount": -315.00,
-    "category": "Miscellaneous",
-    "date": "2024-07-27",
-    "description": "UPI/THANGAVEL THIR/457576796606/UPI"
-  },
-  {
-    "amount": -50.00,
-    "category": "Miscellaneous",
-    "date": "2024-07-27",
-    "description": "UPI/THANGAVEL THIR/457580181885/UPI"
-  },
-  {
-    "amount": -149.00,
-    "category": "Personal Spending",
-    "date": "2024-07-28",
-    "description": "UPI/Amazon India/421094625063/Request from Am"
-  },
-  {
-    "amount": -10.00,
-    "category": "Miscellaneous",
-    "date": "2024-07-30",
-    "description": "UPI/RAJESH KUMAR MY/421224522903/UPI"
-  },
-  {
-    "amount": -1.00,
-    "category": "Savings/Investment",
-    "date": "2024-07-31",
-    "description": "UPI/ANGEL ONE LTD P/421316532194/PayingAngelOne"
-  },
-  {
-    "amount": -150.00,
-    "category": "Savings/Investment",
-    "date": "2024-07-31",
-    "description": "UPI/Angel One Limit/421304461794/PayingAngelOne"
-  },
-  {
-    "amount": -150.00,
-    "category": "Miscellaneous",
-    "date": "2024-08-01",
-    "description": "UPI/RAJESH KUMAR MY/458045315002/case"
-  },
-  {
-    "amount": -60.00,
-    "category": "Food",
-    "date": "2024-08-05",
-    "description": "UPI/ABDUL JALEEL/458408613082/bread omelette"
-  },
-  {
-    "amount": -30.00,
-    "category": "Food",
-    "date": "2024-08-05",
-    "description": "UPI/ABDUL JALEEL/458435614438/Bread omelette"
-  },
-  {
-    "amount": -198.00,
-    "category": "Food",
-    "date": "2024-08-09",
-    "description": "UPI/DELIGHTFOODS/458879428307/food"
-  },
-  {
-    "amount": -80.00,
-    "category": "Food",
-    "date": "2024-08-09",
-    "description": "UPI/DELIGHTFOODS/422242839917/UPI"
+    "date": "2025-09-06",
+    "description": "UPI/RAJESH KUMAR MY/524964187932/UPI",
+    "type": "income"
   },
   {
     "amount": -40.00,
     "category": "Food",
-    "date": "2024-08-09",
-    "description": "UPI/DELIGHTFOODS/458801734208/UPI"
+    "date": "2025-09-07",
+    "description": "UPI/Arya Chappati S/561642599567/chapathi",
+    "type": "expense"
   },
   {
-    "amount": -140.00,
-    "category": "Food",
-    "date": "2024-08-10",
-    "description": "UPI/JAMESHKHAN IQBA/458934715237/snacks"
-  },
-  {
-    "amount": -1003.54,
+    "amount": 40.00,
     "category": "Miscellaneous",
-    "date": "2024-08-12",
-    "description": "UPI/IIT Madras/459107777782/PayviaRazorp ay"
+    "date": "2025-09-11",
+    "description": "UPI/S MUTHU RAJA/562085362385/UPI",
+    "type": "income"
   },
   {
-    "amount": -1003.54,
-    "category": "Miscellaneous",
-    "date": "2024-08-12",
-    "description": "UPI/IIT Madras/459174995015/PayviaRazorp ay"
-  },
-  {
-    "amount": -311.00,
-    "category": "Food",
-    "date": "2024-08-14",
-    "description": "UPI/Annalakshmi Hot/422787418229/food"
-  },
-  {
-    "amount": -1003.54,
-    "category": "Miscellaneous",
-    "date": "2024-08-15",
-    "description": "UPI/IIT Madras/422852339272/PayviaRazorp ay"
-  },
-  {
-    "amount": -20.00,
-    "category": "Miscellaneous",
-    "date": "2024-08-18",
-    "description": "UPI/P6 THE LAKSHMI/423177194044/UPI"
-  },
-  {
-    "amount": -715.79,
+    "amount": -99.07,
     "category": "Personal Spending",
-    "date": "2024-08-18",
-    "description": "UPI/LULU INTERNATIO/423198392239/Payment for 501"
+    "date": "2025-09-11",
+    "description": "PCI/7154/ORACLE SINGAPORE/SINGAPORE110925/11:26",
+    "type": "expense"
   },
   {
-    "amount": -50.00,
-    "category": "Miscellaneous",
-    "date": "2024-08-18",
-    "description": "UPI/M Radhakrishnan/459787591437/vazhai ilai"
+    "amount": 99.07,
+    "category": "Personal Spending",
+    "date": "2025-09-11",
+    "description": "PCI/7154/ORACLE SINGAPORE/SINGAPORE110925/11:26",
+    "type": "income"
   },
   {
-    "amount": -250.00,
-    "category": "Miscellaneous",
-    "date": "2024-08-19",
-    "description": "UPI/vardhukrishnan2/423274138472/ UPI"
+    "amount": -99.07,
+    "category": "Personal Spending",
+    "date": "2025-09-11",
+    "description": "PCI/7154/ORACLE SINGAPORE/SINGAPORE110925/11:29",
+    "type": "expense"
   },
   {
-    "amount": -5160.32,
-    "category": "Miscellaneous",
-    "date": "2024-08-19",
-    "description": "PCI/7154/WL *VUE*Testing Exam/953-6813190824/18:37"
-  },
-  {
-    "amount": -5160.32,
-    "category": "Miscellaneous",
-    "date": "2024-08-19",
-    "description": "PCI/7154/WL *VUE*Testing Exam/953-6813190824/18:42"
-  },
-  {
-    "amount": -72.00,
-    "category": "Food",
-    "date": "2024-08-23",
-    "description": "UPI/DELIGHTFOODS/423691549456/egg puff"
-  },
-  {
-    "amount": -100.00,
-    "category": "Food",
-    "date": "2024-08-23",
-    "description": "UPI/LOVELY CHINESE /460237968254/UPI"
-  },
-  {
-    "amount": -50.00,
-    "category": "Food",
-    "date": "2024-08-29",
-    "description": "UPI/GAYATHIRI K/424230235153/Juice"
-  },
-  {
-    "amount": -156.00,
-    "category": "Food",
-    "date": "2024-08-30",
-    "description": "UPI/DELIGHTFOODS/424392285974/UPI"
+    "amount": 99.07,
+    "category": "Personal Spending",
+    "date": "2025-09-11",
+    "description": "PCI/7154/ORACLE SINGAPORE/SINGAPORE110925/11:29",
+    "type": "income"
   }
 ]

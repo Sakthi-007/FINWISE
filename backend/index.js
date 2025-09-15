@@ -5,7 +5,6 @@ import cors from 'cors';
 import multer from 'multer';
 import { processStatement } from './gemini/ai.mjs';
 
-
 const app = express();
 dotenv.config();
 app.use(cors());
