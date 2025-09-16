@@ -38,7 +38,8 @@ Return ONLY a JSON object with this exact structure:
       "date": "YYYY-MM-DD",
       "description": "Transaction description",
       "amount": 123.45,
-      "category": "Category"
+      "category": "Category",
+      "type":"Income/Expense"
     }
   ]
 }

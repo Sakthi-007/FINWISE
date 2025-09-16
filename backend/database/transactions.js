@@ -1,5 +1,5 @@
 import client from "./dbconnection.js";
-import { create_transactions_table, insert_transaction } from "./queries.js";
+import { create_transactions_table, insert_transaction,get_transactions_by_month,get_transactions_by_category,get_all_transactions } from "./queries.js";
 import fs from "fs";
 
 export const createTransactionTable = () => {
@@ -21,6 +21,7 @@ export async function insertTransactions(transactions) {
             
             await client.query(insert_transaction, [
                 1, // Assuming user_id is 1 for demonstration; replace with actual user_id
+                transaction.date,
                 transaction.amount,
                 transaction.category,
                 transaction.description,
@@ -35,5 +36,39 @@ export async function insertTransactions(transactions) {
         // Rollback in case of error
         await client.query('ROLLBACK');
         console.error('Error inserting data:', err.message);
+    }
+}
+
+
+export async function fetchTransactionsByMonth(userId, year, month) {
+    try {
+        const res = await client.query(get_transactions_by_month, [userId, year, month]);
+        return res.rows;
+    } catch (err) {
+        console.error('Error fetching transactions by month:', err.message);
+        return [];
+    }
+}
+
+export async function fetchTranscationsByCategory(userId,categories){
+try{
+    categories=`${categories}%`;
+    const res = await client.query(get_transactions_by_category,[userId,categories]);
+    return res.rows;
+}
+catch(err){
+    console.error('Error fetching by categories',err.message);
+    return [];
+}
+
+} 
+
+export async function fetchAllTransactions(userId){
+    try{
+        const res= await client.query(get_all_transactions,[userId]);
+        return res.rows;
+    
+    }catch(err){
+        console.error('Error in fetching all ',err.message)
     }
 }

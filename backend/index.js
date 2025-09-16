@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import multer from 'multer';
 import { processStatement } from './gemini/ai.mjs';
-
+import routes from './routes/routes.js'
 const app = express();
 dotenv.config();
 app.use(cors());
@@ -47,10 +47,8 @@ app.post("/upload",upload.single('pdfFile'),async(req,res)=>{
 
 });
 
-app.get('/',(req,res)=>{
-    console.log("home route")
-    res.send("home route");
-});
+app.use('/api',routes);
+
 
 app.listen(port,()=>{
     console.log("server listening in",port);

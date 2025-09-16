@@ -27,6 +27,27 @@ CREATE TABLE IF NOT EXISTS transactions (
 
 
 export const insert_transaction = `
-    INSERT INTO transactions (user_id,amount, category, description, type)
-    VALUES ($1, $2, $3, $4, $5);
+    INSERT INTO transactions (user_id,date,amount, category, description, type)
+    VALUES ($1, $2, $3, $4, $5, $6);
 `;
+
+export const get_transactions_by_month = `
+    SELECT *
+    FROM transactions
+    WHERE user_id = $1
+      AND EXTRACT(YEAR FROM date) = $2
+      AND EXTRACT(MONTH FROM date) = $3
+    ORDER BY date DESC;
+`;
+
+export const get_transactions_by_category=`
+SELECT *
+FROM transactions
+WHERE user_id = $1
+  AND category LIKE $2
+`
+
+export const get_all_transactions=`
+SELECT *
+FROM transactions
+WHERE user_id = $1 ORDER BY date DESC`
