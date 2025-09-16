@@ -89,16 +89,14 @@ export async function processStatement(pdfBuffer) {
   });
 
 
-// const a = fs.readFileSync('res.txt','utf-8');
-// const transactions = JSON.parse(a);
-// console.log(transactions);
+
 const transaction = JSON.parse(response.text);
 console.log(transaction);
-insertTransactions(transaction);
+// insertTransactions(transaction);
 // console.log(response.text);
 // insertTransactions(transactions);
 fs.writeFileSync('res.txt',response.text)
-
+return transaction
 // console.log("Wait is over");
 // console.log("Response Text:",response);
 //   return response.text;
