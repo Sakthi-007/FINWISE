@@ -1,7 +1,12 @@
-import React from 'react'
 
-export const Home = () => {
+const Home = () => {
+
   return (
-    <div>home</div>
+    <>
+      <div>home</div>
+      {/* <Link to="login"> login</Link> */}
+    </>
   )
 }
+
+export default Home;

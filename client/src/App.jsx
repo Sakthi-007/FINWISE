@@ -1,23 +1,12 @@
-import React from 'react'
-import Login  from './pages/Login'
-import Signup from './pages/Signup'
-import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
-import { Home } from './pages/home';
-import BankStatementUpload from './upload.jsx'
-const router = createBrowserRouter([
-  {
-    path:'/',
-    Component:Home
-  },
-])
-
-function App() {
+import { Children } from "react";
+import BankStatementUpload from "./upload.jsx"
+function App({prop,children}) {
 
   return (
     <>   
-    <BankStatementUpload />  
-    <RouterProvider router={router}/> 
+    {children}
+    {prop}
+    <BankStatementUpload /> 
     </>);
 
 }
