@@ -4,6 +4,12 @@
 }
 
 body{
-  background-color: black;
-  color: white;
+  /* background-color: black;
+  color: white; */
+}
+
+.home{
+  display: flex;
+  gap: 0px;
+  width: 100vw;
 }

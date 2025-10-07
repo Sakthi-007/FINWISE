@@ -1,10 +1,14 @@
+import { Outlet } from "react-router";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
 
   return (
     <>
-      <div>home</div>
-      {/* <Link to="login"> login</Link> */}
+      <div className="home">
+        <Navbar/>
+        <Outlet/>
+      </div>
     </>
   )
 }

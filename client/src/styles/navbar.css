@@ -1,0 +1,66 @@
+.navbar-container {
+    width: 15vw;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    background-color: #0b2f5b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0; 
+    box-sizing: border-box;
+}
+
+.navbar-logo {
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  padding: 0 1.5rem 2rem 1.5rem; 
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* A subtle white separator line */
+  margin-bottom: 1.5rem;
+}
+
+.navbar-links {
+  list-style: none; /* Removes bullet points from the list */
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  flex-grow: 1; /* Pushes the logout button to the bottom */
+}
+
+.navbar-links li {
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar-links li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter background on hover */
+  cursor: pointer;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none; /* Removes the underline from links */
+    font-size: 24px;
+    font-weight: bold;
+  display: block; /* Makes the entire list item clickable */
+}
+
+.navbar-logout {
+  padding: 8px;
+  width: 60%;
+  color: white;
+  background-color: red;
+  border-radius: 18px 18px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-logout:hover {
+  color: red;
+  background-color:white;
+}

@@ -3,12 +3,16 @@ import Home from "./pages/home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
+import Dashboard from "./pages/Dashboard";
+import Transactions from "./pages/Transactions";
+import Upload from "./pages/Upload";
 
 const checkLoggedIn=async()=>{
-    const token = localStorage.getItem("token") || true;
+    const token =  true //localStorage.getItem("token") //|| true;
 
     if(!token) return redirect("login");
     return token;
+    // return redirect("login")
 }
 
 const router = createBrowserRouter([
@@ -17,7 +21,19 @@ const router = createBrowserRouter([
     Component:Home,
     loader : async()=>{
       return checkLoggedIn();
-    }
+    },
+    children:[
+      {
+        index:true,
+        Component:Dashboard,
+      },{
+        path:"transactions",
+        Component:Transactions
+      },{
+        path:"upload",
+        Component:Upload
+      }
+    ]
   }
   ,{
     path:'/login',
