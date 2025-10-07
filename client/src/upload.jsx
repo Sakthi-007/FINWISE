@@ -65,33 +65,7 @@ const BankStatementUpload = () => {
 
       {loading && <p>Processing your PDF, please wait...</p>}
 
-      {result && (
-        <div>
-          <h3>Processed Transactions</h3>
-          <p>Found {result.transactions.length} transactions</p>
-          <table border="1" cellPadding="5">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Amount</th>
-                <th>Category</th>
-              </tr>
-            </thead>
-            <tbody>
-              {result.map((transaction, index) => (
-                <tr key={index}>
-                  <td>{transaction.date}</td>
-                  <td>{transaction.description}</td>
-                  <td>{transaction.amount}</td>
-                  <td>{transaction.category}</td>
-                  <td>{transaction.type}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
+      
     </div>
   );
 };

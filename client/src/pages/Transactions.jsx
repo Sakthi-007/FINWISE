@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { RES } from '../data';
 import '../styles/transactions.css';
-
+import axios from 'axios';
 const Transactions = () => {
   const transactions = RES;
   // Pagination logic

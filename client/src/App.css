@@ -21,6 +21,10 @@ body{
   letter-spacing: 1.5px;
 }
 
+#root {
+  display: flex;
+}
+
 .home{
   display: flex;
   gap: 0px;
