@@ -12,7 +12,7 @@
 }
 
 .navbar-logo {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   width: 100%;
   padding: 0 1.5rem 2rem 1.5rem; 
@@ -30,7 +30,7 @@
 }
 
 .navbar-links li {
-    padding: 0.75rem 1.5rem;
+    padding: 1.25rem 1.5rem;
     transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
@@ -42,7 +42,7 @@
 .navbar-links a {
   color: white;
   text-decoration: none; /* Removes the underline from links */
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
   display: block; /* Makes the entire list item clickable */
 }

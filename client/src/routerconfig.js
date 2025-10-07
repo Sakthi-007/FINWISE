@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Dashboard from "./pages/Dashboard";
 import Transactions from "./pages/Transactions";
 import Upload from "./pages/Upload";
+import TransactionDetail from "./pages/TransactionDetail";
 
 const checkLoggedIn=async()=>{
     const token =  true //localStorage.getItem("token") //|| true;
@@ -29,13 +30,14 @@ const router = createBrowserRouter([
       },{
         path:"transactions",
         Component:Transactions,
-        children:[
-          {
-            path:"id",
-            // Component:<>hi</>
-          }
-        ]
       },{
+        path:"transactions/:id",
+        Component:TransactionDetail,
+         loader: async ({ params }) => {
+            return params
+          },
+      }
+      ,{
         path:"upload",
         Component:Upload
       }

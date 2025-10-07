@@ -1,93 +1,117 @@
-import React, { useState, useEffect } from 'react';
-import '../styles/transactions.css';
+import { useState } from 'react';
+import { useNavigate } from 'react-router';
 import { RES } from '../data';
-import { redirect } from 'react-router';
-
-// Mock data to simulate fetching from an API.
-const mockTransactions = RES
-
+import '../styles/transactions.css';
 
 const Transactions = () => {
-  const [transactions, setTransactions] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const transactions = RES;
+  // Pagination logic
   const [currentPage, setCurrentPage] = useState(1);
-  const transactionsPerPage = 10; // Number of items per page
-
-  useEffect(() => {
-    // Simulate API call to fetch all transactions
-    setTimeout(() => {
-      setTransactions(mockTransactions);
-      setLoading(false);
-    }, 1000);
-  }, []);
-
-  // Calculate the transactions to display for the current page
+  const transactionsPerPage = 10;
   const indexOfLastTransaction = currentPage * transactionsPerPage;
   const indexOfFirstTransaction = indexOfLastTransaction - transactionsPerPage;
   const currentTransactions = transactions.slice(indexOfFirstTransaction, indexOfLastTransaction);
   const totalPages = Math.ceil(transactions.length / transactionsPerPage);
 
-  // Handle page number clicks
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   const nextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
   const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
+  const navigate = useNavigate();
 
-  const showTransaction =(e)=>{
-    console.log(e);
-    // redirect("id");
+  const transactionPagerouting = (transaction)=>{
+    const {id}=transaction
+    navigate(`${id}`,{state:transaction});
   }
-
-  if (loading) {
-    return <div className="transactions-container">Loading transactions...</div>;
-  }
-
   return (
     <div className="transactions-container">
-      <h2>Transaction History</h2>
-      <div className="transactions-table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Description</th>
-              <th>Category</th>
-              <th align='text-right'>Amount</th>
-              <th>Type</th>
-            </tr>
-          </thead>
-          <tbody>
-            {currentTransactions.map((transaction, index) => (
-              <tr
-              key={index}
-              onClick={showTransaction}
-              >
-                <td>{transaction.date}</td>
-                <td>{transaction.description}</td>
-                <td>{transaction.category}</td>
-                <td align='text-right' className={transaction.type === 'income' ? 'income' : 'expense'}>
-                  {transaction.type === 'expense' ? '-' : '+'}${transaction.amount.toFixed(2)}
-                </td>
-                <td>{transaction.type}</td>
+      <h2 className="page-title">Transaction History</h2>
+
+      {/* Transaction Table */}
+      <div className="transaction-table-wrapper card">
+          <table>
+            <thead>
+              <tr>
+                <th className={`table-header `}>
+                  Date
+                </th>
+                <th className={`table-header `}>
+                 Description
+                </th>
+                <th className={`table-header `}>
+                 Category
+                </th>
+                <th className={`table-header text-right`}>
+                  Amount
+                </th>
+                <th className={`table-header`}>
+                  Type
+                </th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {currentTransactions.map((transaction,id) => {
+                const isIncome = transaction.type === 'income';
+                return (
+                  // Making the table row clickable to simulate navigation
+                  <tr
+                    key={id}
+                    onClick={()=>transactionPagerouting(transaction)}
+                    className="transaction-row"
+                  >
+                    <td className="table-cell font-bold">{transaction.date}</td>
+                    <td className="table-cell description-cell">{transaction.description}</td>
+                    <td className="table-cell">{transaction.category}</td>
+                    <td className={`table-cell amount-cell ${isIncome ? 'income-color' : 'expense-color'}`}>
+                      {isIncome ? '+' : '-'}₹{Math.abs(transaction.amount).toFixed(2)}
+                    </td>
+                    <td className="table-cell">
+                      <span className={`badge ${isIncome ? 'badge-income' : 'badge-expense'}`}>
+                        {transaction.type}
+                      </span>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
       </div>
-      <div className="pagination">
-        <button onClick={prevPage} disabled={currentPage === 1}>Previous</button>
-        {[...Array(totalPages).keys()].map((number) => (
-          <button
-            key={number + 1}
-            onClick={() => paginate(number + 1)}
-            className={currentPage === number + 1 ? 'active' : ''}
-          >
-            {number + 1}
-          </button>
-        ))}
-        <button onClick={nextPage} disabled={currentPage === totalPages}>Next</button>
+
+      {/* Pagination Controls */}
+      <div className="pagination-controls">
+        <div className="pagination-info">
+            Showing {indexOfFirstTransaction + 1} to {Math.min(indexOfLastTransaction, transactions.length)} of {transactions.length} entries
+        </div>
+        <div className="pagination-buttons">
+          <PaginationButton onClick={prevPage} disabled={currentPage === 1}>
+            &larr; Previous
+          </PaginationButton>
+          {[...Array(totalPages).keys()].map((number) => (
+            <PaginationButton
+              key={number + 1}
+              onClick={() => paginate(number + 1)}
+              isActive={currentPage === number + 1}
+            >
+              {number + 1}
+            </PaginationButton>
+          ))}
+          <PaginationButton onClick={nextPage} disabled={currentPage === totalPages}>
+            Next &rarr;
+          </PaginationButton>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Transactions;
+
+const PaginationButton = ({ children, onClick, disabled = false, isActive = false }) => (
+  <button
+    onClick={onClick}
+    disabled={disabled}
+    className={`pagination-button ${isActive ? 'active' : ''}`}
+  >
+    {children}
+  </button>
+);
+
+export default Transactions
