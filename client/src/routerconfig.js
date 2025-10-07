@@ -1,12 +1,12 @@
 import { createBrowserRouter, redirect } from "react-router";
+import Dashboard from "./pages/Dashboard";
 import Home from "./pages/home";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
-import Dashboard from "./pages/Dashboard";
+import Signup from "./pages/Signup";
+import TransactionDetail from "./pages/TransactionDetail";
 import Transactions from "./pages/Transactions";
 import Upload from "./pages/Upload";
-import TransactionDetail from "./pages/TransactionDetail";
 
 const checkLoggedIn=async()=>{
     const token =  true //localStorage.getItem("token") //|| true;
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         Component:Dashboard,
       },{
         path:"transactions",
-        Component:Transactions,
+        Component:Transactions
       },{
         path:"transactions/:id",
         Component:TransactionDetail,

@@ -44,7 +44,7 @@ const TransactionDetail = ({onBack}) => {
           } />
           <DetailItem label="Amount" value={
             <span className={`amount-display ${isIncome ? 'income-color' : 'expense-color'}`}>
-              {isIncome ? '+' : '-'}${transaction.amount.toFixed(2)}
+              {isIncome ? '+' : '-'}₹{Math.abs(transaction.amount).toFixed(2)}
             </span>
           } />
         </div>

@@ -1,10 +1,19 @@
-import { useState } from 'react';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
-import { RES } from '../data';
 import '../styles/transactions.css';
 
 const Transactions = () => {
-  const transactions = RES;
+  // console.log(res)
+  const [transactions,setTransactions] = useState([]);
+
+  useEffect(()=>{
+    axios.get("http://localhost:8000/api/getAllTransactions/1")
+    .then(res=>{
+      setTransactions(res.data);
+    })
+  },[])
+ 
   // Pagination logic
   const [currentPage, setCurrentPage] = useState(1);
   const transactionsPerPage = 10;
@@ -25,8 +34,11 @@ const Transactions = () => {
   return (
     <div className="transactions-container">
       <h2 className="page-title">Transaction History</h2>
-
-      {/* Transaction Table */}
+      {transactions.length==0 ?
+      (<h1>Loading...</h1>)
+      :
+      (<>
+        {/* Transaction Table */}
       <div className="transaction-table-wrapper card">
           <table>
             <thead>
@@ -99,6 +111,7 @@ const Transactions = () => {
           </PaginationButton>
         </div>
       </div>
+      </>)}
     </div>
   );
 };
