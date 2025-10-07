@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import '../styles/transactions.css';
-import axios from 'axios';
+
 const Transactions = () => {
   // console.log(res)
   const [transactions,setTransactions] = useState([]);
