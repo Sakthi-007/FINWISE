@@ -1,8 +1,6 @@
 .navbar-container {
     width: 15vw;
     height: 100vh;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 1.5px;
     background-color: #0b2f5b;
     color: white;
     display: flex;

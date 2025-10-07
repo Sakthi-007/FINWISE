@@ -28,7 +28,13 @@ const router = createBrowserRouter([
         Component:Dashboard,
       },{
         path:"transactions",
-        Component:Transactions
+        Component:Transactions,
+        children:[
+          {
+            path:"id",
+            // Component:<>hi</>
+          }
+        ]
       },{
         path:"upload",
         Component:Upload
