@@ -32,7 +32,7 @@ export const insert_transaction = `
 `;
 
 export const get_transactions_by_month = `
-    SELECT *
+    SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
     FROM transactions
     WHERE user_id = $1
       AND EXTRACT(YEAR FROM date) = $2
@@ -41,13 +41,13 @@ export const get_transactions_by_month = `
 `;
 
 export const get_transactions_by_category=`
-SELECT *
+SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
 FROM transactions
 WHERE user_id = $1
   AND category LIKE $2
 `
 
 export const get_all_transactions=`
-SELECT *
+SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
 FROM transactions
 WHERE user_id = $1 ORDER BY date DESC`
