@@ -1,14 +1,18 @@
 .navbar-container {
+  position: sticky;
+  top: 0;
+  left: 0;
     width: 15vw;
     height: 100vh;
     background-color: #0b2f5b;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    padding: 2rem 0; 
+    padding: 20px 0; 
     box-sizing: border-box;
+    /* overflow-y: auto; */
 }
 
 .navbar-logo {
