@@ -88,4 +88,58 @@ router.get('/transactions/category/:userId', async (req, res) => {
   }
 });
 
+// Generate financial report
+router.post('/reports/generate/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { dateRange, categories, reportType } = req.body;
+    
+    const transactions = await fetchAllTransactions(userId);
+    
+    // Process report data
+    const reportData = {
+      summary: {
+        totalTransactions: transactions.length,
+        totalIncome: transactions
+          .filter(t => t.type === 'income')
+          .reduce((sum, t) => sum + parseFloat(t.amount), 0),
+        totalExpense: transactions
+          .filter(t => t.type === 'expense')
+          .reduce((sum, t) => sum + parseFloat(t.amount), 0)
+      },
+      categoryBreakdown: {},
+      monthlyTrends: {},
+      insights: []
+    };
+    
+    // Calculate category breakdown
+    transactions.forEach(transaction => {
+      const category = transaction.category;
+      if (!reportData.categoryBreakdown[category]) {
+        reportData.categoryBreakdown[category] = {
+          income: 0,
+          expense: 0,
+          count: 0
+        };
+      }
+      
+      if (transaction.type === 'income') {
+        reportData.categoryBreakdown[category].income += parseFloat(transaction.amount);
+      } else {
+        reportData.categoryBreakdown[category].expense += parseFloat(transaction.amount);
+      }
+      reportData.categoryBreakdown[category].count += 1;
+    });
+    
+    res.status(200).json({
+      success: true,
+      data: reportData,
+      generatedAt: new Date().toISOString()
+    });
+  } catch (err) {
+    console.error('Error generating report:', err.message);
+    res.status(500).json({ message: err.message });
+  }
+});
+
 export default router;

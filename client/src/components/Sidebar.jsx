@@ -7,7 +7,8 @@ import {
   FaTable, 
   FaSignOutAlt,
   FaChartPie,
-  FaWallet
+  FaWallet,
+  FaFileAlt
 } from 'react-icons/fa'
 import './Sidebar.css'
 
@@ -22,7 +23,8 @@ export default function Sidebar() {
   const menuItems = [
     { path: '/', icon: FaHome, label: 'Dashboard', color: '#4F46E5' },
     { path: '/upload', icon: FaUpload, label: 'Upload', color: '#059669' },
-    { path: '/transactions', icon: FaTable, label: 'Transactions', color: '#DC2626' }
+    { path: '/transactions', icon: FaTable, label: 'Transactions', color: '#DC2626' },
+    { path: '/reports', icon: FaFileAlt, label: 'Reports', color: '#7C3AED' }
   ]
 
   return (

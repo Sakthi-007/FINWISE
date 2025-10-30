@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar'
 import Dashboard from './components/Dashboard'
 import Upload from './components/Upload'
 import Transactions from './components/Transactions'
+import Reports from './components/Reports'
 import LoadingScreen from './components/LoadingScreen'
 import './App.css'
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/upload" element={<Upload />} />
               <Route path="/transactions" element={<Transactions />} />
+              <Route path="/reports" element={<Reports />} />
               <Route path="/loading" element={<LoadingScreen />} />
             </Routes>
           </motion.div>

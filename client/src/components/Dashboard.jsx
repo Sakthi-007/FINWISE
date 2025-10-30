@@ -40,6 +40,11 @@ const CATEGORIES = [
   "Personal Spending", "Entertainment", "Miscellaneous"
 ]
 
+// Helper function to format currency as Rupees
+const formatCurrency = (amount) => {
+  return `₹${amount.toFixed(2)}`
+}
+
 export default function Dashboard() {
   const [transactions, setTransactions] = useState([])
   const [filteredTransactions, setFilteredTransactions] = useState([])

@@ -128,4 +128,62 @@ export const processTransactionsForCharts = (transactions) => {
   }
 }
 
+// Reports API functions
+export const generateReport = async (userId = 1, dateRange, categories) => {
+  try {
+    const transactions = await fetchAllTransactions(userId)
+    return processTransactionsForReports(transactions, dateRange, categories)
+  } catch (error) {
+    console.error('Error generating report:', error)
+    throw error
+  }
+}
+
+export const processTransactionsForReports = (transactions, dateRange, categories) => {
+  // Filter by date range
+  const now = new Date()
+  const filtered = transactions.filter(transaction => {
+    const transactionDate = new Date(transaction.date)
+    let startDate = new Date()
+    
+    switch (dateRange) {
+      case 'last1month':
+        startDate.setMonth(now.getMonth() - 1)
+        break
+      case 'last3months':
+        startDate.setMonth(now.getMonth() - 3)
+        break
+      case 'last6months':
+        startDate.setMonth(now.getMonth() - 6)
+        break
+      case 'last1year':
+        startDate.setFullYear(now.getFullYear() - 1)
+        break
+      default:
+        startDate = new Date(0) // All time
+    }
+    
+    return transactionDate >= startDate && 
+           transactionDate <= now &&
+           categories.includes(transaction.category)
+  })
+  
+  return processTransactionsForCharts(filtered)
+}
+
+export const exportTransactionsToCSV = (transactions) => {
+  const csvContent = [
+    ['Date', 'Description', 'Category', 'Amount', 'Type'],
+    ...transactions.map(transaction => [
+      transaction.date,
+      transaction.description,
+      transaction.category,
+      transaction.amount,
+      transaction.type
+    ])
+  ].map(row => row.join(',')).join('\n')
+  
+  return csvContent
+}
+
 export default api
