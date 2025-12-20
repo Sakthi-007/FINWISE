@@ -24,3 +24,30 @@ CREATE TABLE IF NOT EXISTS transactions (
     type transaction_type NOT NULL,
     description TEXT
 );`;
+
+
+export const insert_transaction = `
+    INSERT INTO transactions (user_id,date,amount, category, description, type)
+    VALUES ($1, $2, $3, $4, $5, $6);
+`;
+
+export const get_transactions_by_month = `
+    SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
+    FROM transactions
+    WHERE user_id = $1
+      AND EXTRACT(YEAR FROM date) = $2
+      AND EXTRACT(MONTH FROM date) = $3
+    ORDER BY date DESC;
+`;
+
+export const get_transactions_by_category=`
+SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
+FROM transactions
+WHERE user_id = $1
+  AND category LIKE $2
+`
+
+export const get_all_transactions=`
+SELECT id, user_id, amount, category, type, description,  TO_CHAR(date, 'YYYY-MM-DD') as date
+FROM transactions
+WHERE user_id = $1 ORDER BY date DESC`

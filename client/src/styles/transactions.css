@@ -1,0 +1,335 @@
+
+.transactions-container {
+  padding: 2rem;
+  /* min-height:50vh; */
+  width: 82vw;
+}
+
+.loading-message {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: var(--shadow-md);
+    border: 1px solid #f3f4f6;
+    overflow: hidden;
+}
+
+/* --- Transaction Table Styles --- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; 
+}
+
+thead {
+    background-color: #f9fafb; /* gray-50 */
+}
+
+.table-header {
+    padding: 0.75rem 1.5rem;
+    text-align: left;
+    font-size: 1rem; /* xs */
+    font-weight: bold;
+    color: var(--text-dark);
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Amount column should be right aligned */
+.table-header.text-right {
+    text-align: right;
+}
+
+tbody {
+    background-color: white;
+    border-top: 1px solid #e5e7eb;
+}
+
+.transaction-row {
+    transition: background-color 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.transaction-row:hover {
+    background-color: #eff6ff; /* blue-50 */
+}
+
+.table-cell {
+    padding: 1.1rem 1.5rem;
+    white-space: nowrap;
+    font-size: 0.875rem; 
+    color: var(--text-light);
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.table-cell.font-bold {
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.amount-cell {
+    font-weight: 800;
+    text-align: right;
+}
+
+.description-cell:hover {
+    color: var(--secondary-color);
+}
+
+/* --- Badges and Colors --- */
+.badge {
+    padding: 0.25rem 0.75rem;
+    display: inline-flex;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    border-radius: 9999px; /* rounded-full */
+    text-transform: uppercase;
+}
+
+.badge-income {
+    background-color: #d1fae5; /* green-100 */
+    color: #065f46; /* green-800 */
+}
+
+.badge-expense {
+    background-color: #fee2e2; /* red-100 */
+    color: #991b1b; /* red-800 */
+}
+
+.income-color {
+    color: var(--income-color);
+}
+
+.expense-color {
+    color: var(--expense-color);
+}
+
+
+/* --- Pagination Styles --- */
+.pagination-controls {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  
+  .pagination-info {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    gap: 0.25rem; /* space-x-1 */
+}
+
+.page-number-display{
+    padding: 0px 12px;
+    align-self: center;
+}
+.pagination-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    transition: all 150ms ease-in-out;
+    border: 1px solid #d1d5db; /* gray-300 */
+    background-color: white;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.pagination-button:hover:not(:disabled) {
+    background-color: #f3f4f6;
+}
+
+.pagination-button.active {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #f3f4f6;
+}
+
+/* --- Detail View Styles --- */
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.detail-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f3f4f6; /* gray-100 */
+    color: var(--text-light);
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #e5e7eb;
+    color: var(--text-dark);
+}
+
+.back-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.back-button-link {
+    margin-left: 1rem;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.detail-card {
+    /* Uses .card styles */
+    padding: 2rem;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-item-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.detail-item-value {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    word-break: break-word;
+}
+
+.amount-display {
+    font-size: 1.875rem;
+    font-weight: 800;
+}
+
+.detail-description-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* Filter design*/
+/* --- Filter Bar Styles --- */
+.filters-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: .5rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-group label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.filter-select {
+    padding: 0.5rem 2rem 0.5rem 0.75rem; /* Add padding for arrow */
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db; /* gray-300 */
+    background-color: white;
+    color: var(--text-dark);
+    cursor: pointer;
+    transition: border-color 150ms ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em;
+}
+
+.filter-select:hover {
+    border-color: #9ca3af; /* gray-400 */
+}
+
+.filter-select:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px var(--secondary-color-light);
+}
+
+
+
+/* --- Responsive Adjustments (Media Queries) --- */
+
+/* Small devices (sm: breakpoint equivalent) */
+@media (min-width: 640px) {
+    .detail-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pagination-controls {
+        flex-direction: row;
+    }
+    .pagination-info {
+        margin-bottom: 0;
+    }
+}
+
+/* Large devices (lg: breakpoint equivalent) */
+@media (min-width: 1024px) {
+    .detail-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .full-width {
+        grid-column: span 3 / span 3;
+    }
+}
+
+
+/* transaction detail page */
+

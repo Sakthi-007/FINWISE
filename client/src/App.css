@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+    --primary-color: #0b2f5b;
+    --secondary-color: #1e40af; /* A slightly lighter blue */
+    --background-light: #f9fafb;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --income-color: #10b981; /* Green */
+    --expense-color: #ef4444; /* Red */
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+    --sidebar-width: 256px; /* 16rem or w-64 */
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+#root {
+  display: flex;
+}
+
+.home{
+  display: flex;
+  gap: 0px;
+  width: 100vw;
+}
+
+
+.page-title {
+  font-size: 1.875rem; /* 3xl */
+  font-weight: 700; /* bold */
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
