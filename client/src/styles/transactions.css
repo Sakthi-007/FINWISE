@@ -114,7 +114,6 @@ tbody {
 /* --- Pagination Styles --- */
 .pagination-controls {
     display: flex;
-    flex-direction: column;
     justify-content: left;
     align-items: center;
     margin-top: 1.5rem;
@@ -133,6 +132,10 @@ tbody {
     gap: 0.25rem; /* space-x-1 */
 }
 
+.page-number-display{
+    padding: 0px 12px;
+    align-self: center;
+}
 .pagination-button {
     padding: 0.5rem 1rem;
     font-size: 0.875rem;
